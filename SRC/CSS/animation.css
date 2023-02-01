@@ -1,0 +1,99 @@
+/* HEADER-TITLE-ANIMATION */
+
+.header-title-animation-text-1 {
+    position: absolute;
+    top: 23%;
+    animation: header-title1 0.5s ease-out;
+}
+
+@keyframes header-title1 {
+    0% {
+      opacity: 0;
+      top: 33%;
+    }
+}
+
+.header-title-animation-text-2 {
+    position: absolute;
+    top: 29%;
+    animation: header-title2 0.5s ease-out;
+}
+
+@keyframes header-title2 {
+    0% {
+        opacity: 0;
+        top: 39%;
+      }
+}
+
+.header-title-animation-text-3 {
+    position: absolute;
+    top: 35%;
+    animation: header-title3 0.5s ease-out;
+}
+
+@keyframes header-title3 {
+    0% {
+        opacity: 0;
+        top: 45%;
+      }
+}
+
+/* HEADER-TITLE-ANIMATION */
+
+/* HEADER-DESC&BUTTONS-ANIMATION */
+
+.header-title-desc-animation {
+    position: absolute;
+    top: 40%;
+    animation: header-desc 0.8s ease-out;
+}
+
+@keyframes header-desc {
+    0% {
+        opacity: 0;
+        top: 45%;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.header-main-buttons-animation {
+    position: absolute;
+    top: 45%;
+    animation: header-buttons 0.8s ease-out;
+}
+
+@keyframes header-buttons {
+    0% {
+        opacity: 0;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* HEADER-DESC&BUTTONS-ANIMATION */
+
+/* HEADER-CARDS-ANIMATION */
+
+.header-cards-animation {
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    animation: header-cards 1.6s ease;
+}
+
+@keyframes header-cards {
+    0% {
+        opacity: 0;
+        left: -10%;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* HEADER-CARDS-ANIMATION */

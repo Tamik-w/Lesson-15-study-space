@@ -154,12 +154,13 @@
 .header-language-text-ua {
     position: relative;
     left: -5px;
+    margin: 0px 10px ;
 }
 
 .header-language-text-ua::after {
     content: "";
     position: absolute;
-    right: -5px;
+    right: -10px;
     top: 1px;
     width: 2px;
     height: 16px;
